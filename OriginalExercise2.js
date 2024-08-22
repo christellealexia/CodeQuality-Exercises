@@ -5,3 +5,8 @@ function greet(name) {
       return "Hello!";
     }
   }
+  
+  const greet = (name) =>  {
+    return name ? `Hello,${name} !`: `Hello!`
+  }
+  console.log(greet('Chichi'))
