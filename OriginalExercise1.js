@@ -8,3 +8,8 @@ function calculateAverage(numbers) {
     var average = sum / count;
     return average;
   }
+
+  const calculateAverage = (numbers) => 
+ numbers.reduce((accumulator,number) => accumulator + number, 0) / numbers.length;
+        
+      
