@@ -6,6 +6,5 @@ function reverseString(str) {
     return reversed;
   }
 
-  function reverseString(str) {
-    return reversed = str.split('').reverse().join('');
-  }
+  const reverseString = (str) => str.split('').reverse().join('');
+  
