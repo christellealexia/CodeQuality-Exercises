@@ -8,4 +8,5 @@ function findEvenNumbers(numbers) {
     return evenNumbers;
   }
 
- const reverseString = (str)  =>  reversed = str.split('').reverse().join('');
+  const findEvenNumbers = (numbers)  =>  numbers.filter(number => number % 2 == 0); 
+ 
