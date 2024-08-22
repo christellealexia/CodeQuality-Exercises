@@ -7,3 +7,5 @@ function findEvenNumbers(numbers) {
     }
     return evenNumbers;
   }
+
+ const reverseString = (str)  =>  reversed = str.split('').reverse().join('');
