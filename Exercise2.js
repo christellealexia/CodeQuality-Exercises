@@ -1,6 +1,4 @@
-function greet(name) {
-    if (!name) return "Hello!"; 
-     return "Hello, " + name + "!"; 
+const greet = (name) =>  {
+    return name ? `Hello,${name} !`: `Hello!`
   }
-
   console.log(greet('Chichi'))
