@@ -5,3 +5,6 @@ function reverseString(str) {
     }
     return reversed;
   }
+
+  const reverseString = (str) => str.split('').reverse().join('');
+  
