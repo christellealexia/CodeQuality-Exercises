@@ -5,3 +5,5 @@ function calculateMatrixSum(matrix) {
         sum += matrix[i][j];
     return sum;
   }
+
+  const calculateMatrixSum = (matrix) => matrix.map().reduce(sum, number => sum + number,0)
