@@ -5,3 +5,7 @@ function greet(name) {
       return "Hello!";
     }
   }
+  
+  const greet = (name) =>  name ? `Hello,${name} !`: `Hello!`
+  
+  
